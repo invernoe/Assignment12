@@ -1,8 +1,8 @@
 # Table Comparison
 | Collection                | Structure                     | Access            | Insertion at End    | Insertion/Deletion at Start/Middle | Search             |
 |---------------------------|-------------------------------|-------------------|---------------------|------------------------------------|--------------------|
-| ArrayList                 | Dynamic array (non-generic)   | O(1)              | O(1) (O(n) if we reach capacity)      | O(n)                               | O(n)               |
-| List<T>                   | Dynamic array (generic)       | O(1)              | O(1) (O(n) if we reach capacity)      | O(n)                               | O(n)               |
+| ArrayList                 | Dynamic array (non-generic)   | O(1)              | O(1), O(n) if capacity reached      | O(n)                               | O(n)               |
+| List<T>                   | Dynamic array (generic)       | O(1)              | O(1), O(n) if capacity reached      | O(n)                               | O(n)               |
 | LinkedList<T>             | Doubly linked list            | O(n)              | O(1)                | O(1)                               | O(n)               |
 | Stack<T>                  | LIFO array                    | O(1)              | O(1)                | N/A                                | N/A                |
 | Queue<T>                  | FIFO array                    | O(1)              | O(1)                | N/A                                | N/A                |
